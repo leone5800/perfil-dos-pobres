@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Meu Site</title>
+</head>
+<body>
+    <header class="dark-header">
+
+        <button class="color-button" onclick="changeBackgroundColor()">Mudar Fundo</button>
+   
+
+        <script>
+            function changeBackgroundColor() {
+                // Altere a cor de fundo para uma cor diferente
+                document.body.style.backgroundColor = getRandomColor();
+            }
+    
+            // Função para gerar uma cor aleatória em hexadecimal
+            function getRandomColor() {
+                const letters = '0123456789ABCDEFGHI';
+                let color = '#';
+                for (let i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                }
+                return color;
+            }
+        </script>
+      
+      
+    </header>
+</body>
+<ul class="topic-list">
+    <li>
+       
+        <img  src="IMG_20240210_024720_832.jpg" alt="Ícone 1" class="topic-icon">
+      <a href="https://leone5800.github.io/perfil-meu/" id="q" target="_blank" style="text-decoration: none; color: rgb(255, 255, 255);" align="center">leone</a>
+    </li>
+
+</ul>
+<ul class="topic-list">
+    <li>
+        <img src="AAABE3D4-78EC-465C-9145-5186A925E507.jpg" alt="Ícone 1" class="topic-icon">
+    <a href="https://kamugawa.github.io/qualquerotavio/" id="q" target="_blank" style="text-decoration: none; color:rgb(255, 255, 255);" align="center" >Otavio</a>
+    </li>
+  
+</ul>
+<ul class="topic-list">
+    <li>
+        <img id="i" src="Snapchat-897910574.webp" alt="Ícone 1" class="topic-icon">
+    <a href="https://leone5800.github.io/jaco/" id="q" target="_blank" style="text-decoration: none; color: rgb(255, 255, 255);" align="center" >Jacó</a>
+    </li>
+   
+</ul>
+<ul class="topic-list">
+    <li>
+        <img  src="419709544_1833013050514887_4432831129133556993_n.png" alt="Ícone 1" class="topic-icon">
+    <a href="https://kamugawa.github.io/meuperfil/" id="q" target="_blank" style="text-decoration: none; color: rgb(255, 255, 255);" align="center" >luana</a>
+    </li>
+   
+</ul>
+<ul class="topic-list">
+    <li>
+        <img id="i" src="IMG_20221022_233948_821.jpg" alt="Ícone 1" class="topic-icon">
+     <a href="https://larissavianaa.github.io/perfil/" id="q" target="_blank" style="text-decoration: none; color: rgb(255, 255, 255);" align="center" >larissa</a>
+    </li>
+</ul>
+    <ul class="topic-list">
+        <li>
+            <img id="i" src="IMG_20240302_235202_644.jpg" alt="Ícone 1" class="topic-icon">
+         <a href="https://gabysilvaa.github.io/perfil/" id="q" target="_blank" style="text-decoration: none; color: rgb(255, 255, 255);" align="center" >Gaby</a>
+        </li>
+
+</ul>
+
+
+</html>
